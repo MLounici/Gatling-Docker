@@ -6,7 +6,7 @@
 
 #### Accéder au conteneur `ctr_gatling`
 
-    # http://192.168.1.45:8080
+    # http://localhost:8080
     
     #lancer un test
     sudo nsenter --target $(sudo docker inspect --format {{.State.Pid}} ctr_gatling) --mount --uts --ipc --net --pid
