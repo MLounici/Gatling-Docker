@@ -2,7 +2,7 @@ FROM ubuntu:trusty
 
 ENV DEBIAN_FRONTEND noninteractive
 
-MAINTAINER Mustapha Lounici <lounici@gmail.com>
+MAINTAINER Adam Lounici <lounici@gmail.com>
 
 RUN apt-get update && sh -c "echo Europe/Paris > /etc/timezone"
 
